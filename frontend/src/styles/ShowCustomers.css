@@ -1,0 +1,10 @@
+#customers-section {
+    margin: 0 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#customers-section table tr th, #customers-section table tr td{
+    padding: 10px;
+    font-size: 1.5rem;
+}

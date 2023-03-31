@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.page-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.message-content {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}

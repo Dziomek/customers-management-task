@@ -6,5 +6,5 @@ export const db = new sqlite3.Database("customers.db", (err) => {
 });
 
 db.run(
-  "CREATE TABLE IF NOT EXISTS customers (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, email TEXT, vat_number TEXT, address TEXT)"
+  "CREATE TABLE IF NOT EXISTS customers (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, vat_number TEXT, address TEXT, created_at TIMESTAMP DEFAULT (datetime('now','localtime')))"
 );

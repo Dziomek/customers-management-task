@@ -35,6 +35,7 @@ const ShowCustomers = () => {
               <th>Name</th>
               <th>VAT number</th>
               <th>Address</th>
+              <th>Created at</th>
             </tr>
           </thead>
           <tbody>
@@ -46,6 +47,7 @@ const ShowCustomers = () => {
                       <td>{customer.name}</td>
                       <td>{customer.vat_number}</td>
                       <td>{customer.address}</td>
+                      <td>{customer.created_at}</td>
                     </tr>
                   );
                 })
